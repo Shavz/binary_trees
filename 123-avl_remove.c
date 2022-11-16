@@ -5,9 +5,9 @@
  * avl_remove - remove a node from an AVL tree
  * @root: pointer to root of tree
  * @value: value to remove
- *
  * Return: pointer to new root
  */
+
 avl_t *avl_remove(avl_t *root, int value)
 {
 	avl_t *node;
@@ -75,11 +75,11 @@ printf("After\n");
 }
 
 /**
- * find_successor - finds first in-order successor
+ * find_successor - finds first in order successor
  * @root: pointer to root of tree
- *
- * Return: pointer to successor, or NULL if fail
+ * Return: pointer to successor or NULL if fail
  */
+
 bst_t *find_successor(bst_t *root)
 {
 	if (root == NULL)
