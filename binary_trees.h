@@ -1,15 +1,15 @@
-#ifndef _BINARY_TREES_H_
-#define _BINARY_TREES_H_
+#ifndef BINARY_TREES_H
+#define BINARY_TREES_H
 
 #include <stddef.h>
 #include <stdlib.h>
 
 /**
- * struct queue_s - Queue node
- *
+ * struct queue_s - queue node
  * @tnode: pointer to a tree node
  * @next: pointer to next queue node
  */
+
 typedef struct queue_s
 {
 	const struct binary_tree_s *tnode;
@@ -17,13 +17,13 @@ typedef struct queue_s
 } queue_t;
 
 /**
- * struct binary_tree_s - Binary tree node
- *
- * @n: Integer stored in the node
- * @parent: Pointer to the parent node
- * @left: Pointer to the left child node
- * @right: Pointer to the right child node
+ * struct binary_tree_s - binary tree node
+ * @n: int stored in the node
+ * @parent: pointer to the parent node
+ * @left: pointer to the left child node
+ * @right: pointer to the right child node
  */
+
 typedef struct binary_tree_s
 {
 	int n;
@@ -88,4 +88,4 @@ avl_t *balance_left(avl_t **tree, avl_t *next);
 avl_t *balance_right(avl_t **tree, avl_t *next);
 avl_t *create_avl(int *array, avl_t **tree, size_t start, size_t end);
 
-#endif /* _BINARY_TREES_H_ */
+#endif
