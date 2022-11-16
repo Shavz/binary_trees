@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * avl_insert - inserts a node into AVL tree
+ * avl_insert - inserts a value into AVL tree
  * @tree: double pointer to root of tree
  * @value: value to insert into tree
- *
  * Return: pointer to new node or NULL if fail
  */
+
 avl_t *avl_insert(avl_t **tree, int value)
 {
 	avl_t *new, *next;
@@ -56,9 +56,9 @@ avl_t *avl_insert(avl_t **tree, int value)
  * balance_left - makes left side AVL balanced
  * @tree: double pointer to tree
  * @next: pointer to next node
- *
  * Return: pointer to root
  */
+
 avl_t *balance_left(avl_t **tree, avl_t *next)
 {
 	avl_t *parent;
@@ -91,9 +91,9 @@ avl_t *balance_left(avl_t **tree, avl_t *next)
  * balance_right - makes right side AVL balanced
  * @tree: double pointer to tree
  * @next: pointer to next node
- *
  * Return: pointer to root
  */
+
 avl_t *balance_right(avl_t **tree, avl_t *next)
 {
 	avl_t *parent;
