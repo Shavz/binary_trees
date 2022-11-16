@@ -4,9 +4,9 @@
 /**
  * binary_tree_is_avl - checks if binary tree is an AVL tree
  * @tree: pointer to root of tree
- *
- * Return: 1 if AVL tree, 0 otherwise
+ * Return: 1 if AVL tree or 0 if not
  */
+
 int binary_tree_is_avl(const binary_tree_t *tree)
 {
 	if (tree == NULL)
@@ -19,9 +19,9 @@ int binary_tree_is_avl(const binary_tree_t *tree)
  * @tree: pointer to root of tree
  * @min: local minimum
  * @max: local maximum
- *
- * Return: 1 if AVL tree, 0 otherwise
+ * Return: 1 if AVL tree or 0 if not
  */
+
 int avl_check(const binary_tree_t *tree, int min, int max)
 {
 	int balance;
@@ -38,11 +38,11 @@ int avl_check(const binary_tree_t *tree, int min, int max)
 }
 
 /**
- * binary_tree_balance - calculates the balance factor of tree
+ * binary_tree_balance - calculate balance factor of tree
  * @tree: pointer to root of tree
- *
  * Return: balance factor of tree or 0 if NULL
  */
+
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	if (tree == NULL)
@@ -53,9 +53,9 @@ int binary_tree_balance(const binary_tree_t *tree)
 /**
  * binary_tree_height - measures height of tree
  * @tree: pointer to root of tree
- *
  * Return: height of tree, -1 if tree is NULL
  */
+
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t lsum;
