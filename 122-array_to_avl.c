@@ -4,9 +4,9 @@
  * array_to_avl - builds an AVL tree from an array
  * @array: array to use to build tree
  * @size: size of array
- *
  * Return: pointer to root of new AVL tree or NULL if fail
  */
+
 avl_t *array_to_avl(int *array, size_t size)
 {
 	avl_t *tree;
