@@ -1,7 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_levelorder - goes through binary tree using level-order traversal
+ * binary_tree_levelorder - goes through binary tree
+ * using level-order traversal
  * @tree: pointer to root of tree
  * @func: pointer to function to use on nodes
  */
