@@ -2,12 +2,12 @@
 #include "stdio.h"
 
 /**
- * bst_remove - removes a node from a BST
+ * bst_remove - removes a node from BST
  * @root: pointer to root of tree
  * @value: value to remove from tree
- *
- * Return: new root of tree once value is removed, or NULL if fail
+ * Return: new root node of tree or NULL if fail
  */
+
 bst_t *bst_remove(bst_t *root, int value)
 {
 	bst_t *node, *rem; /* node to remove */
@@ -52,11 +52,11 @@ bst_t *bst_remove(bst_t *root, int value)
 }
 
 /**
- * find_successor - finds first in-order successor
+ * find_successor - finds first in order successor
  * @root: pointer to root of tree
- *
- * Return: pointer to successor, or NULL if fail
+ * Return: pointer to successor or NULL if fail
  */
+
 bst_t *find_successor(bst_t *root)
 {
 	if (root == NULL)
@@ -67,12 +67,12 @@ bst_t *find_successor(bst_t *root)
 }
 
 /**
- * bst_search - search for value in a BST
+ * bst_search - search for value in BST
  * @tree: pointer to root of tree
- * @value: value to search for
- *
- * Return: pointer to node if found, NULL otherwise
+ * @value: value to search
+ * Return: pointer to node if found or NULL if not
  */
+
 bst_t *bst_search(const bst_t *tree, int value)
 {
 	if (tree == NULL || tree->n == value)
