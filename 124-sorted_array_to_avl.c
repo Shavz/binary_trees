@@ -4,9 +4,9 @@
  * sorted_array_to_avl - create an AVL tree from a sorted array
  * @array: sorted array
  * @size: size of array
- *
  * Return: pointer to root of AVL tree or NULL
  */
+
 avl_t *sorted_array_to_avl(int *array, size_t size)
 {
 	avl_t *tree;
@@ -23,9 +23,9 @@ avl_t *sorted_array_to_avl(int *array, size_t size)
  * @tree: double pointer to root of tree
  * @start: start of array
  * @end: end of array
- *
  * Return: pointer to root of AVL tree or NULL
  */
+
 avl_t *create_avl(int *array, avl_t **tree, size_t start, size_t end)
 {
 	size_t mid;
@@ -54,9 +54,9 @@ avl_t *create_avl(int *array, avl_t **tree, size_t start, size_t end)
  * avl_insert - inserts a node into AVL tree
  * @tree: double pointer to root of tree
  * @value: value to insert into tree
- *
  * Return: pointer to new node or NULL if fail
  */
+
 avl_t *avl_insert(avl_t **tree, int value)
 {
 	if (tree == NULL)
