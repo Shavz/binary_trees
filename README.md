@@ -102,5 +102,5 @@ At the end of this project, We were able to understand these questions:
 | [134-heap_to_sorted_array.c](https://github.com/Shavz/binary_trees/blob/master/134-heap_to_sorted_array.c)|
 | [135-O](https://github.com/Shavz/binary_trees/blob/master/135-O)|
 
-## Contributors :heavy_check_mark:
-Shavin Lillkant <Shavz>
+## Contributors
+Shavin Lillkant (shavin.l@hotmail.com)
